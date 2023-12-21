@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bady-abbas-c4XoMGxfsVU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+header,
+footer {
+    position: absolute;
+    width: 100%;
+    background: #474056;
+    height: 70px;
+    color: #f7ece1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+}
+
+header {
+    top: 0;
+}
+
+footer {
+    bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: #f9f8f8;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #f9f8f8;
+    font-weight: 700;
+}
+
+form {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    background: #111111bc;
+    transition: 0.4s ease-in-out;
+    position: relative;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.message {
+    position: relative;
+    text-align: center;
+    color: #222222;
+    background: ghostwhite;
+    top: 3em;
+    padding: 6px;
+    border-radius: 5px;
+    width: 300px;
+    font-weight: bold;
+}
+
+.check {
+    position: relative;
+    align-self: center;
+    top: 24px;
+    width: 130px;
+    margin: 0;
+}
+
+input {
+    position: relative;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    box-shadow: inset 3px 3px 6px #d1d1d1, inset -3px -3px 6px #ffffff;
+    top: 0.6em;
+    padding-left: 15px;
+    transition: 0.4s ease-in-out;
+}
+
+input:hover {
+    box-shadow: inset 0px 0px 0px #d1d1d1, inset 0px 0px 0px #ffffff;
+    background-color: lightgrey;
+}
+
+input:focus {
+    box-shadow: inset 0px 0px 0px #d1d1d1, inset 0px 0px 0px #ffffff;
+    background-color: lightgrey;
+}
+
+button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(to bottom, #3891a6, #1d93b7, #0094c8, #1393d9, #3c91e6);
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+button:hover:not(:disabled) {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(to top, rgba(30, 144, 255, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+}
+
+button:active:not(:disabled) {
+    transform: scale(0.96)
+}
+
+button:focus:not(:focus-visible) {
+    outline: 0;
+}
+
+button:disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+@media (max-height: 500px) {
+    header, footer {
+        display: none;
+    }
+}

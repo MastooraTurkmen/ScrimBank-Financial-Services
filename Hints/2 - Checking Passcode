@@ -1,0 +1,8 @@
+Imagine the user enters [1] [8] [8] [6] in the input boxes (the [] brackets are the boxes).
+
+In that case, the userInput state should be: {charOne: "1", charTwo: "8", charThree: "8", charFour: "6"}. 
+
+And charOne + charTwo + charThree + charFour = "1886". 
+
+Since passCode = "1776", the combination of the four characters would not equal passcode, and verified should be set to false. 
+
