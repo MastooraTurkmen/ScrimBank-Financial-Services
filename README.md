@@ -2,10 +2,13 @@
 
 Enter the password code and won $1,000,000.
 
-![Alt text](image.png)
++ Enter verification code to continue.
+  ![Alt text](image.png)
 
-![Alt text](image-1.png)
++ The code is "1001"
+  ![Alt text](image-1.png)
 
++ If you enter the wrong code, you can't won
 ![Alt text](image-2.png)
 
 
