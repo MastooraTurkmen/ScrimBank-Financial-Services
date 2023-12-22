@@ -1,5 +1,10 @@
 # ScrimBank Financial Services
 
+![Alt text](image.png)
+
+
+
+
 
 Quick start:
 
