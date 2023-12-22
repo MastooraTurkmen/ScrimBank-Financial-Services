@@ -36,3 +36,9 @@ $ git clone https://github.com/MastooraTurkmen/ScrimBank-Financial-Services.git
 # Go inside the repository
 $ cd ScrimBank-Financial-Services
 ```
+
+
+
+-------
+
+## Languages and Tools are used 🗣️🔧
