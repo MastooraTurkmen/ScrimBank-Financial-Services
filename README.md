@@ -70,6 +70,7 @@ $ cd ScrimBank-Financial-Services
    ![Alt text](image.png)
 5. Then write your project name and select it.
 6. After selecting here you can see that the project **_Review configuration for ScrimBank-Financial-Services_** and then select the **_Deploy ScrimBank-Financial-Services_** Button.
+   ![Alt text](image-1.png)
 7. Now your project is Live.
 
 
