@@ -1,5 +1,7 @@
 # ScrimBank Financial Services
 
+Enter the password code and won $1,000,000.
+
 ![Alt text](image.png)
 
 ![Alt text](image-1.png)
