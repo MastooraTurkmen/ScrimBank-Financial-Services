@@ -67,11 +67,11 @@ $ cd ScrimBank-Financial-Services
 1. How to deploy our project to the ***Netlify*** site?
 2. I use [Netlify App](https://app.netlify.com/) for deploying my projects.
 4. From there select **_Deploy with Github_**.
-   ![Alt text](image.png)
+   ![Netlify screenshot](image.png)
 5. Then write your project name and select it.
 6. After selecting here you can see that the project **_Review configuration for ScrimBank-Financial-Services_** and then select the **_Deploy ScrimBank-Financial-Services_** Button.
-   ![Alt text](image-1.png)
-   ![Alt text](image-2.png)
+   ![Netlify screenshot](image-1.png)
+   ![Netlify screenshot](image-2.png)
 7. Now your project is Live.
 
 
