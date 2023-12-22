@@ -31,8 +31,8 @@ Head over to https://vitejs.dev/ to learn more about using vite
 
 ```
 # Clone this repository
-$ git clone
+$ git clone https://github.com/MastooraTurkmen/ScrimBank-Financial-Services.git
 
 # Go inside the repository
-
+$ cd ScrimBank-Financial-Services
 ```
