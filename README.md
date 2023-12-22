@@ -53,3 +53,5 @@ $ cd ScrimBank-Financial-Services
     + [JavaScript](https://github.com/topics/javascript)
 
 2. **Tools** 🔧
+
+    + [Chrome](https://github.com/topics/chrome)
