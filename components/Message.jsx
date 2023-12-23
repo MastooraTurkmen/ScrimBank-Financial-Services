@@ -1,4 +1,5 @@
 import React from "react"
+import correct from "../images/correct-check.svg"
 
 export default function Message({ status }) {
 	let checkType
@@ -8,7 +9,7 @@ export default function Message({ status }) {
 		checkType = "neutral"
 		message = "Enter verification code to continue."
 	} else if (status) {
-		checkType = "correct"
+		checkType = {correct}
 		message = "Verified!"
 	} else {
 		checkType = "incorrect"
@@ -18,7 +19,7 @@ export default function Message({ status }) {
 	return (
 		<div className="message-container">
 			<p className="message">{message}</p>
-			<img src={`./images/${checkType}-check.svg`} className="check" />
+			<img src={`${checkType}`} className="check" />
 		</div>
 	)
 }
