@@ -1,5 +1,6 @@
 import React from "react"
 import correct from "../images/correct-check.svg"
+import incorrect from "../images/incorrect-check.svg"
 
 export default function Message({ status }) {
 	let checkType
@@ -12,7 +13,7 @@ export default function Message({ status }) {
 		checkType = {correct}
 		message = "Verified!"
 	} else {
-		checkType = "incorrect"
+		checkType = {incorrect}
 		message = "Incorrect code."
 	}
 
